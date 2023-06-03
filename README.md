@@ -7,6 +7,7 @@
 | No. | Topic                                                                   |
 | --- | ----------------------------------------------------------------------- |
 | 1   | [**User information**](#user-information)                               |
+| 2   | [**File and directory commands**](#file-and-directory-commands)         |
 
 ### User Information
 
@@ -120,3 +121,9 @@ The below command is used to modify the user xyz. The command sets the user's re
     
 
   **[⬆ Back to Top](#table-of-contents)**
+  
+  ------------------------------------------------------------------------------------------------------------------------
+  
+### File and directory commands
+
+1. **
