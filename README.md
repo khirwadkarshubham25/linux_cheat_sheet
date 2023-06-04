@@ -22,7 +22,7 @@
 1. **id:** 
 It display the user identification(the real and effective user and group IDs) information
 
-    ![id_screenshot](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/11511a7b-901a-422f-ba05-7d10be0cd0f0)
+    ![id_screenshot](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/253e54a8-aaaa-411e-b62a-792bb0ccfd77)
 
 
 2. **who** 
@@ -33,23 +33,25 @@ It is used to get information about currently logged in user on to system. If yo
     3. Date & Time of login
     4. Remote host name of the user
     
-    
-    ![who_screenshot](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/c81ce2d3-6de6-4433-a06d-5837d109979f)    
+    ![who_screenshot](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/f5613e57-7cbb-437d-ba52-ad4c3f4ade98)
+   
 
 3. **whoami** 
 It display the system’s username
 
-    ![Screenshot from 2023-06-01 20-35-49](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/5413fb7b-99e6-4559-8991-5821dbeec32d)    
+    ![Screenshot from 2023-06-01 20-35-49](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/627d173d-7ead-4dea-a630-802e6e5070d2)
+  
 
 4. **users** 
 It displays usernames of all users currently logged on the system.
     
-    ![Screenshot from 2023-06-01 20-37-30](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/b91d038d-cb4e-47ea-bd9b-4b4a7614694f)
+    ![Screenshot from 2023-06-01 20-37-30](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/f4ff6c4d-babc-4a15-91da-1013ab18ee0e)
+
 
 5. **finger**
 It is used to check the information of any currently logged in users. i.e, It displays users login time, tty (name), idle time, home directory, shell name etc.
     
-    ![Screenshot from 2023-06-01 20-44-07](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/35cfd1a4-01ed-41ed-b9f1-0f5089ba2a20)
+    ![Screenshot from 2023-06-01 20-44-07](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/de67104a-417f-4d74-a142-03c4aab871fe)
   
     This may not be available by default in many linux machines. In this case, you need to install it manually.
 
@@ -64,13 +66,14 @@ It displays a list of last logged in users on the system. You can pass user name
     $ last [options] [username...] [tty...]
     ```
     
-    ![Screenshot from 2023-06-01 20-51-45](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/020803eb-a03e-4017-8779-ccd53a6a4e3a)
+    ![Screenshot from 2023-06-01 20-51-45](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/48d07fa6-1868-43ce-b32a-45890b909fe1)
+   
 
 7. **lastlog:** 
 This command is used to find the details of a recent login of all users or of a given user.
 
-    ![Screenshot from 2023-06-01 20-55-46](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/670b7bd5-26d0-4cf3-b11e-1391067c1f1b)
-
+    ![Screenshot from 2023-06-01 20-55-46](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/854499ca-d56a-4607-931c-ac291bd271b3)
+    
 8. **W** 
 It is a command-line utility that displays information about currently logged in users and what each user is doing.
 
@@ -79,12 +82,13 @@ It is a command-line utility that displays information about currently logged in
     $  w [options] user [...]
     ```
     
-    ![Screenshot from 2023-06-01 20-58-21](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/3cb496c1-61a3-4118-adce-3682fb57056e)
+    ![Screenshot from 2023-06-01 20-58-21](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/87b9cfef-b67c-42a4-b5dd-edb7fa834d8d)
 
 9. **groups:** 
 This command is used to display all the groups for which the user belongs to.
 
-    ![Screenshot from 2023-06-01 20-59-47](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/9a0c64be-c18b-41bd-a018-9ffcb03e98c8)
+    ![Screenshot from 2023-06-01 20-59-47](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/cf25979c-4985-4e27-9d1d-c98940a84bd9)
+
 
 10. **su** 
 It used to become substitute user during a login session.
@@ -141,11 +145,12 @@ This command is used to list files or directories. It also accepts some flags or
     ```bash
     $ ls [flags] [directory]
     ```
-    ![Screenshot from 2023-06-04 01-41-28](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/f2364ef6-0cbb-4950-bc99-3cf8c8a99f8c)
-
-    ![Screenshot from 2023-06-04 01-43-05](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/c9a081e8-b297-4a4d-99c7-e9097da98ad1)
     
-    ![Screenshot from 2023-06-04 01-43-59](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/4bf263a9-b6b6-4c9d-996f-4be22786e0cc)
+    ![Screenshot from 2023-06-04 01-41-28](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/9ef4bc68-284e-4b38-a531-18f66f0cecbf)
+
+    ![Screenshot from 2023-06-04 01-43-05](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/248a032e-838c-4c76-821a-a948e418234d)
+    
+    ![Screenshot from 2023-06-04 01-43-59](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/e6caa1e9-35a2-4433-ac43-b1fc2b51603f)
 
     Below are the list of possible options for `ls` command,
 
@@ -170,7 +175,7 @@ This command is used to change directory.
     $ cd [directory]
     ```
 
-    ![Screenshot from 2023-06-04 01-55-19](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/614e1d78-cc30-4ef2-8182-2c845b630f4d)
+    ![Screenshot from 2023-06-04 01-55-19](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/112f57fb-c4af-41af-bf64-12888edb7839)
     
     Below are the list of possible options for `cd` command,
 
@@ -183,12 +188,11 @@ This command is used to change directory.
 
 3. **pwd** The pwd(Present Working Directory) command is used to print the name of the present/current working directory starting from the root.
 
-     ![Screenshot from 2023-06-04 02-08-33](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/68867820-d329-41f9-825a-bc875e602b32)
-
+    ![Screenshot from 2023-06-04 02-08-33](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/f1248cc8-716b-420f-a344-06c2e8098ff2)
+    
 4. **mkdir** The mkdir(make directory) command allows users to create directories or folders.
 
-
-    ![Screenshot from 2023-06-04 02-11-49](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/69646dc2-b0f8-459e-8560-1dcb057c4855)
+    ![Screenshot from 2023-06-04 02-11-49](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/a4f5c5b8-1993-4178-817f-f618a1bca093)
 
     The option '-p' is used to create multiple directories or parent directories at once.
 
@@ -200,7 +204,8 @@ This command is used to change directory.
 
 5. **rmdir**: The rmdir(remove directories) is used to remove _empty_ directories. Can be used to delete multiple empty directories as well. Safer to use compared to `rm -r FolderName`. This command can also be forced to delete non-empty directories.
 
-    ![Screenshot from 2023-06-04 02-14-45](https://github.com/khirwadkarshubham25/ubuntu_commands/assets/122966558/a48724e5-006d-4814-81f3-a6d246665f5b)
+    ![Screenshot from 2023-06-04 02-14-45](https://github.com/khirwadkarshubham25/linux_cheat_sheet/assets/122966558/8aed5ede-066a-4eca-885a-a18ed4136652)
+
 
    1. Remove empty directory:
 
